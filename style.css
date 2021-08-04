@@ -1,0 +1,166 @@
+* {
+  /* outline: 1px dotted red; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#container {
+  max-width: 820px;
+  height: 900px;
+  background-color: rgb(137, 118, 146);
+  margin: 0 auto;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+  padding: 10px;
+  font-size: 13px;
+}
+
+#title {
+  font-size: 30px;
+}
+
+#sec-title {
+  font-weight: 400;
+  align-items: center;
+}
+
+#main {
+  padding: 20px;
+}
+
+#section-1 {
+  display: flex;
+}
+
+#section1-b {
+  background-color:rgb(230, 230, 230);
+  margin-left: 20px;
+  height: 260px;
+  font-size: 10.2px;
+}
+
+.sub-title {
+  background-color: rgba(133, 133, 133, 0.425);
+  color: white;
+  padding: 10px;
+}
+
+.sub1 {
+  padding: 10px;
+  font-weight: 500;
+}
+
+a {
+  color: black;
+  padding-left: 10px;
+}
+
+img {
+  height: 250px;
+  width: 360px;
+  border: 5px solid rgb(230, 230, 230);
+}
+
+#section-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.sub-img {
+  width: 240px;
+  height: 100px;
+}
+
+.sub-section1 {
+  background-color: rgb(230, 230, 230);
+  margin-right: 15px;
+  padding-bottom: 20px;
+}
+
+.sub-title2 {
+  background-color: rgba(133, 133, 133, 0.425);
+  color: white;
+  padding: 10px;
+}
+
+.sub2 {
+  font-size: 10px;
+  padding: 10px;
+}
+
+.sub-title3, .sub-title4, .sub-title5 {
+  background-color: rgba(133, 133, 133, 0.425);
+  color: white;
+  padding: 5px;
+}
+
+.sub-title4 {
+  margin-top: 13px;
+}
+
+.sub-title3 {
+  margin-top: 25px;
+}
+
+.sub-img2 {
+  width: 30px;
+  height: 30px;
+  margin-right: 1px;
+  padding-top: 5px;
+}
+
+.language {
+  background-color: green;
+  border-radius: 10px;
+}
+
+input {
+  display: flex;
+  margin: 0 auto;
+  background-color: rgb(11, 82, 11);
+  color: white;
+  border-radius: 8px;
+  font-size: 13px;
+  padding: 3px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  background-color: rgb(230, 230, 230);
+  align-items: center;
+  padding: 5px;
+
+}
+
+h4 {
+  font-weight: 200;
+}
+
+#footer2 {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  font-style: italic;
+}
+
+.sub-img3 {
+  width: 25px;
+  height: 25px;
+  align-items: center;
+}
